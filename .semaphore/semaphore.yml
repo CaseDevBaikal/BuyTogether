@@ -13,6 +13,5 @@ blocks:
             - checkout
             - cache restore
             - cd backend
-            - gradle check
             - gradle test
-            - gradle run
+            - gradle runShadow
