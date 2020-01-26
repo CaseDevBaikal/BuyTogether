@@ -12,5 +12,7 @@ blocks:
           commands:
             - checkout
             - cache restore
-            - gradle build
+            - cd backend
+            - gradle check
+            - gradle test
             - gradle run
