@@ -13,4 +13,3 @@ blocks:
             - checkout
             - cache restore
             - gradle build
-            - gradle test
