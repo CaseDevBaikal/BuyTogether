@@ -8,10 +8,9 @@ blocks:
   - name: "Build"
     task:
       jobs:
-        - name: Gradle Build
+        - name: Gradle test
           commands:
             - checkout
             - cache restore
             - cd backend
             - gradle test
-            - gradle runShadow
